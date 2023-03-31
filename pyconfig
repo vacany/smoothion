@@ -1,0 +1,20 @@
+#!/bin/bash -l
+
+#ml matplotlib
+
+
+
+#ml torchsparse
+
+ml PyTorch-Lightning/1.9.0-foss-2022a-CUDA-11.7.0
+
+ml PyTorch3D/0.7.1-foss-2022a-CUDA-11.7.0
+
+#ml OpenCV/4.5.5-foss-2021b-CUDA-11.4.1-contrib
+#ml scikit-image/0.18.3-foss-2021a
+#ml PyTorch/1.10.0-foss-2021a-CUDA-11.3.1
+#ml torchvision/0.11.3-foss-2021a-CUDA-11.3.1
+
+
+
+python "$@"

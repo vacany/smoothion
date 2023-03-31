@@ -1,0 +1,48 @@
+removert:
+  ExtrinsicLiDARtoPoseBase:
+  - -0.001857
+  - -0.9999
+  - -0.008039
+  - -0.004784
+  - -0.006481
+  - 0.0080518
+  - -0.9999
+  - -0.07337
+  - 0.9999
+  - -0.001805
+  - -0.006496
+  - -0.3339
+  - 0.0
+  - 0.0
+  - 0.0
+  - 1.0
+  batch_size: 100
+  clean_for_all_scan: false
+  dist_nn_points_within: 0.1
+  downsample_voxel_size: 0.05
+  end_idx: 10
+  isScanFileKITTIFormat: true
+  keyframe_gap: 1
+  num_nn_points_within: 2
+  num_omp_cores: 16
+  remove_resolution_list:
+  - 2.5
+  - 2.0
+  - 1.5
+  revert_resolution_list:
+  - 1.0
+  - 0.9
+  - 0.8
+  - 0.7
+  rimg_color_max: 20.0
+  rimg_color_min: 0.0
+  saveCleanScansPCD: true
+  saveMapPCD: true
+  save_pcd_directory: /local/vacekpa2/rci_sshfs/mnt/personal/vacekpa2/data/semantic_kitti/dataset/sequences/01/removert/
+  sequence_hfov: 360
+  sequence_pose_path: /local/vacekpa2/rci_sshfs/mnt/personal/vacekpa2/data/semantic_kitti/dataset/sequences/01/poses.txt
+  sequence_scan_dir: /local/vacekpa2/rci_sshfs/mnt/personal/vacekpa2/data/semantic_kitti/dataset/sequences/01/velodyne/
+  sequence_vfov: 50
+  start_idx: 0
+  use_keyframe_gap: false
+  valid_ratio_to_save: 0.75
